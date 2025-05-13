@@ -1,0 +1,24 @@
+{
+  "name": "rlachica-cypress-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "register": "npx cypress run -- spec 'cypress/e2e/regression-testing/registration.cy.js' --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymarttt/rlachica-cypress-exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymarttt/rlachica-cypress-exam/issues"
+  },
+  "homepage": "https://github.com/raymarttt/rlachica-cypress-exam#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "cypress": "^14.3.3"
+  }
+}
